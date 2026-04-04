@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from GLEU import GELU
+from gleu import GELU
 
 class FeedForward(nn.Module):
     def __init__(self, cfg):

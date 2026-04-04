@@ -1,1 +1,10 @@
 /__pycache__
+gpt2/124M/checkpoint
+gpt2/124M/encoder.json
+gpt2/124M/hparams.json
+gpt2/124M/model.ckpt.data-00000-of-00001
+gpt2/124M/model.ckpt.index
+gpt2/124M/model.ckpt.meta
+gpt2/124M/vocab.bpe
+model.pth
+model_and_optimizer.pth
