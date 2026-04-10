@@ -8,3 +8,11 @@ gpt2/124M/model.ckpt.meta
 gpt2/124M/vocab.bpe
 model.pth
 model_and_optimizer.pth
+gpt2_model_for_classification_finetuning/124M/checkpoint
+gpt2_model_for_classification_finetuning/124M/encoder.json
+gpt2_model_for_classification_finetuning/124M/hparams.json
+gpt2_model_for_classification_finetuning/124M/model.ckpt.data-00000-of-00001
+gpt2_model_for_classification_finetuning/124M/model.ckpt.index
+gpt2_model_for_classification_finetuning/124M/model.ckpt.meta
+gpt2_model_for_classification_finetuning/124M/vocab.bpe
+review_classifier.pth
