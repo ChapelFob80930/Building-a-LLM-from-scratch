@@ -17,3 +17,4 @@ gpt2_model_for_classification_finetuning/124M/model.ckpt.meta
 gpt2_model_for_classification_finetuning/124M/vocab.bpe
 review_classifier.pth
 gpt2/355M
+.vscode/settings.json
