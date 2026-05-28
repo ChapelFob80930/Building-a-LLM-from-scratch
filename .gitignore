@@ -18,3 +18,4 @@ gpt2_model_for_classification_finetuning/124M/vocab.bpe
 review_classifier.pth
 gpt2/355M
 .vscode/settings.json
+building_the_GPT_tokenizer/TinyStoriesV2-GPT4-train.txt
