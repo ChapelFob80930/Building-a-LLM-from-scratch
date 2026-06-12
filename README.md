@@ -14,7 +14,7 @@
 ├── finetuning_for_classification.ipynb           # Ch. 6 — Spam classifier fine-tuning
 ├── finetuing_for_instructions.ipynb              # Ch. 7 — Instruction fine-tuning (Alpaca format)
 ├── Adding_Bells_and_Whistles_to_the_Training_Loop.ipynb  # Appendix A — LR warmup, cosine decay, gradient clipping
-├── building_a_tokenizer_from_scratch.ipynb       # Bonus — BPE tokenizer from scratch (Karpathy-style)
+├── building_the_GPT_tokenizer/building_a_tokenizer_from_scratch.ipynb       # Bonus — BPE tokenizer from scratch (Karpathy-style)
 ├── Parameter-efficient-Finetuning-with-LoRA.ipynb        # Appendix E — LoRA parameter-efficient fine-tuning
 ├── the-verdict.txt                               # Sample corpus (short story by Edith Wharton)
 └── README.md
