@@ -1,5 +1,5 @@
 import torch
-from text_to_id_to_text import text_to_token_ids, token_ids_to_text
+from src.data.text_to_id_to_text import text_to_token_ids, token_ids_to_text
 from generate_text_simple import generate_text_simple
 
 def generate_and_print_sample(model, tokenizer, device, start_context): 
