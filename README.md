@@ -17,6 +17,7 @@
 ├── building_the_GPT_tokenizer/building_a_tokenizer_from_scratch.ipynb       # Bonus — BPE tokenizer from scratch (Karpathy-style)
 ├── Parameter-efficient-Finetuning-with-LoRA.ipynb        # Appendix E — LoRA parameter-efficient fine-tuning
 ├── the-verdict.txt                               # Sample corpus (short story by Edith Wharton)
+├── environment.yml                               # Conda environment specification
 └── README.md
 ```
 
@@ -2835,10 +2836,38 @@ tiktoken       0.12.0
 Jupyter        Notebook / Lab
 ```
 
-Install dependencies:
+### Setup Workflow
+
+1. **Create the environment**
+
+   ```bash
+   conda env create -f environment.yml
+   ```
+
+2. **Activate it**
+
+   ```bash
+   conda activate llm-gpu
+   ```
+
+3. **(Optional) For NVIDIA GPU users**
+
+   ```bash
+   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+   ```
+
+4. **Verify GPU access**
+
+   ```bash
+   python -c "import torch; print(torch.cuda.is_available())"
+   ```
+
+### PyTorch GPU Setup (NVIDIA)
+
+After creating the environment:
 
 ```bash
-pip install torch tiktoken jupyter
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 ```
 
 ---
